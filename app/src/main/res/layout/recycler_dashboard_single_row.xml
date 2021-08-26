@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="4dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llContent">
+
+    <ImageView
+        android:id="@+id/imgRecyclerBookIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_book"
+        android:padding="10dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/txtRecyclerRowItem"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="List Item"
+        android:layout_toRightOf="@id/imgRecyclerBookIcon"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/txtRecyclerAuthorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of The Author"
+        android:layout_toRightOf="@id/imgRecyclerBookIcon"
+        android:layout_below="@id/txtRecyclerRowItem"
+        android:padding="5dp"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/txtRecyclerCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs. 299"
+        android:textColor="#03A162"
+        android:layout_below="@id/txtRecyclerAuthorName"
+        android:layout_toRightOf="@id/imgRecyclerBookIcon"
+        android:paddingLeft="5dp"
+        android:paddingTop="7dp"
+        android:textSize="12sp"/>
+
+    <ImageView
+        android:id="@+id/imgRecyclerStarIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/yellow_star"
+        android:layout_toLeftOf = "@id/txtRecyclerRating"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/txtRecyclerRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.5"
+        android:textSize="15sp"
+        android:textColor="#ffd400"
+        android:layout_alignParentRight="true"
+        android:paddingRight="30dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"/>
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

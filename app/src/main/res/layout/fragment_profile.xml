@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+    <!-- TODO: Update blank com.jasleen.bookhub.fragment layout -->
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Jasleen"
+        android:gravity="center_horizontal"
+        android:textSize="35sp"
+        android:padding="20dp"/>
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_profile"
+        android:layout_below="@id/txtProfile"
+        />
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Jasleen"
+        android:layout_toRightOf="@id/imgProfile"
+        android:layout_below="@id/txtProfile"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Id: xyz@gmail.com"
+        android:layout_toRightOf="@id/imgProfile"
+        android:layout_below="@id/txtName"
+        android:textSize="20sp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number: 123456789"
+        android:layout_toRightOf="@id/imgProfile"
+        android:layout_below="@id/txtEmail"
+        android:textSize="20sp"
+        android:paddingTop="10dp" />
+
+</RelativeLayout>

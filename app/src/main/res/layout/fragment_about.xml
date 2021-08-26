@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.AboutFragment">
+
+    <!-- TODO: Update blank com.jasleen.bookhub.fragment layout -->
+    <TextView
+        android:id="@+id/txtAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About This App"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_below="@id/txtAbout"
+        android:text="This app allows users to know more about various classic novels. You can favourite the books you like for later reference. Click on any of the books and you can see the description of the book. You can also sort the books in order of their rating. Happy Reading!"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:padding="20dp"/>
+
+</RelativeLayout>

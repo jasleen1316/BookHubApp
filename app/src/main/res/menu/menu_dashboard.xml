@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_action_sort"
+        android:title="@string/action_sort"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+<!--    showasaction always: since we dont want to give the user any more options other than sorting, we make the icon of the menu item as <sorting></sorting>&ndash;&gt;-->
+
+</menu>
